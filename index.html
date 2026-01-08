@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dono Alihonova - Biznes Intensiv</title>
+    <style>
+* {margin: 0;padding: 0;box-sizing: border-box;}body {background: #0a0a0a;color: #fff;font-family: system-ui, -apple-system, sans-serif;overflow-x: hidden;}.header {padding-top: 60px;padding-bottom: 32px;}.container {max-width: 1400px;width: 100%;margin: 0 auto;padding: 0 20px;display: flex;flex-direction: column;align-items: center;}.header__container {display: flex;align-items: center;}.wrap {max-width: 400px;margin: 0 auto;padding: 0 10px;}.header__info {display: flex;gap: 16px;align-items: center;justify-content: center;max-width: 380px;width: 100%;}.header__item {width: 100%;max-width: 147px;border-radius: 50px;background: #d4a853;border-color: #d4a853;color: #0a0a0a;font-weight: 700;padding: 10px 20px;display: flex;align-items: center;justify-content: center;font-size: clamp(14px, 4vw, 16px);line-height: 100%;min-height: 46px;}.header__item img {width: 16px;height: 16px;display: block;object-fit: contain;}.header__item-second {width: 100%;max-width: 216px;border-radius: 50px;border: 1px solid rgba(42, 42, 42, 0.5);background: #1a1a1a;padding: 10px 20px;display: flex;align-items: center;justify-content: center;gap: 8px;font-size: clamp(12px, 3vw, 14px);line-height: 100%;color: #a0a0a0;}.hero {padding-bottom: 40px;}.title {font-family: "Bebas Neue", sans-serif;font-size: clamp(35px, 10.5vw, 78px);line-height: 1.1;text-align: center;text-transform: uppercase;margin-bottom: 14px;}.title span {color: #d4a853;}.price {text-align: center;font-size: clamp(27px, 8vw, 30px);font-weight: 600;color: #f80000;margin-bottom: 18px;}.video {width: 100%;max-width: 1000px;margin: 0 auto 18px;border-radius: 32px;overflow: hidden;background: #1a1a1a;aspect-ratio: 16 / 9;background: linear-gradient(135deg, rgba(10, 10, 10, 0.85) 0%, rgba(26, 26, 26, 0.9) 100%);position: relative;}.videoCover {position: absolute;inset: 0;display: flex;align-items: center;justify-content: center;cursor: pointer;}.videoCover img {width: 110px;height: 110px;}.videoThumb {position: absolute;inset: 0;width: 100%;height: 100%;object-fit: cover;opacity: 0.6;}.playBtn {width: 90px;height: 90px;border: 0;background: transparent;cursor: pointer;position: relative;}.playIcon {width: 90px;height: 90px;display: block;object-fit: contain;}.btn {width: 100%;max-width: 500px;margin: 0 auto;padding: 30px 28px;border-radius: 50px;background: #d4a853;font-family: "Bebas Neue", sans-serif;color: #0a0a0a;display: flex;align-items: center;justify-content: center;font-size: 45px;font-weight: 600;text-transform: uppercase;text-decoration: none;}@media (max-width: 420px) {.header {padding-top: 20px;}.header__item {padding: 8px 15px;gap: 10px;}.header__item-second {padding: 8px 15px;}.btn {font-size: 25px;padding: 20px 22px;}.playBtn, .playIcon {width: 80px;height: 80px;}.videoCover img {width: 95px;height: 95px;}}@media (max-width:340px) {.header__info {flex-direction: column;}}
+    </style>
+
+    <link rel="preload" href="./css/main.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="./css/main.css">
+    </noscript>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__info">
+                <div class="header__item">
+                    <span>2 kunlik dars</span>
+                </div>
+
+                <div class="header__item header__item-second">
+                    <img src="./images/calendar.png" width="16" height="16" loading="lazy" decoding="async" alt="calendar">
+                    <p>14-15 Yanvar, 20:30</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="hero">
+        <div class="container">
+            <h1 class="title">
+                Noldan Uzum market <br> orqali <span>1.000$ daromad <br> qilishni</span> o'rganing
+            </h1>
+
+            <p class="price">97,000 so'm</p>
+
+            <div class="video" id="videoBox">
+                <div class="videoCover" id="videoCover">
+                    <img src="./images/play.avif" width="110" height="110" loading="lazy" decoding="async"
+                        alt="play icon">
+                </div>
+
+                <iframe id="videoFrame"
+                    data-src="https://www.youtube.com/embed/1xKe1StVXcg?rel=0&modestbranding=1&controls=1&iv_load_policy=3&playsinline=1"
+                    title="Dono Alihonova - Biznes Intensiv" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
+                    style="display:none; width:100%; height:100%;">
+                </iframe>
+            </div>
+
+            <a class="btn" href="https://t.me/alihonova_bot?start=meta_ads">
+                Ro'yxatdan o'tish
+            </a>
+        </div>
+    </section>
+
+
+    <section class="features" id="features">
+        <div class="features__container">
+
+            <div class="features__head">
+                <h2 class="features__title">
+                    Biznes intensivda <br>
+                    <span class="features__title-accent">nimalarni ko'rib chiqamiz?</span>
+                </h2>
+            </div>
+
+            <div class="features__carousel carousel">
+                <button class="carousel__nav carousel__nav--prev" id="carouselPrev" aria-label="Oldingi">
+                    <svg style="color:#fff" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+
+                <div class="carousel__track" id="carouselTrack">
+
+                    <article class="card">
+                        <div class="card__icon">
+                            <img src="./images/info/1.avif" width="56" height="56" alt="icon" loading="lazy" decoding="async">
+                        </div>
+
+                        <h3 class="card__title">Uzum'da noldan oyiga 1000$ daromadga chiqish</h3>
+
+                        <ul class="card__list">
+                            <li class="card__item">Uzum Market qanday ishlaydi</li>
+                            <li class="card__item">Eng tez sotiladigan mahsulot tanlash</li>
+                            <li class="card__item">Tovar joylash va sotuvni boshlash</li>
+                            <li class="card__item">Birinchi daromadga chiqish modeli</li>
+                        </ul>
+
+                        <span class="card__num">/ 01</span>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__icon">
+                            <img src="./images/info/2.avif" width="56" height="56" alt="icon" loading="lazy" decoding="async">
+                        </div>
+
+                        <h3 class="card__title">Uzum Market va Yandex Market'da biznes boshlash</h3>
+
+                        <ul class="card__list">
+                            <li class="card__item">Marketplace orqali biznes yuritish</li>
+                            <li class="card__item">Uzum va Yandex farqi</li>
+                            <li class="card__item">Tovar qo'shish va savdoni yo'lga qo'yish</li>
+                            <li class="card__item">Barqaror daromad tizimi</li>
+                        </ul>
+
+                        <span class="card__num">/ 02</span>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__icon">
+                            <img src="./images/info/3.avif" width="56" height="56" alt="icon" loading="lazy" decoding="async">
+                        </div>
+
+                        <h3 class="card__title">Uzum'da savdoni 5x–10x oshirish</h3>
+
+                        <ul class="card__list">
+                            <li class="card__item">Sotuvni oshiruvchi tovar kartasi</li>
+                            <li class="card__item">Kalit so'z va TOP'ga chiqish</li>
+                            <li class="card__item">Reklama va aksiyalarni to'g'ri ishlatish</li>
+                            <li class="card__item">Savdoni ko'paytirish strategiyalari</li>
+                        </ul>
+
+                        <span class="card__num">/ 03</span>
+                    </article>
+
+                </div>
+
+                <button class="carousel__nav carousel__nav--next" id="carouselNext" aria-label="Keyingi">
+                    <svg style="color:#fff" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                      </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <script defer>
+     const cover=document.getElementById("videoCover"),frame=document.getElementById("videoFrame");cover.addEventListener("click",(()=>{frame.style.display="block",cover.style.display="none",frame.src=frame.dataset.src+"&autoplay=1"}));
+    </script>
+</body>
+
+</html>
